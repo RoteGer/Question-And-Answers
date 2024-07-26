@@ -7,12 +7,12 @@ export const fetchQuestions = async () => {
     return data.data.sort((a, b) => a.attributes.field_order - b.attributes.field_order);
   };
   
-  export const fetchTopics = async () => {
+export const fetchTopics = async () => {
     const response = await fetch('/jsonapi/taxonomy_term/tags');
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
     const data = await response.json();
     return data.data;
-  };
+};
   
