@@ -1,0 +1,24 @@
+name: rotem_linnovate_theme
+type: theme
+'base theme': stable9
+version: 1.0.0
+libraries:
+  - rotem_linnovate_theme/base
+  - rotem_linnovate_theme/messages
+  - core/normalize
+  - rotem_linnovate_theme/react_app
+libraries-extend:
+  user/drupal.user:
+    - rotem_linnovate_theme/user
+  core/drupal.dropbutton:
+    - rotem_linnovate_theme/dropbutton
+  core/drupal.dialog:
+    - rotem_linnovate_theme/dialog
+  file/drupal.file:
+    - rotem_linnovate_theme/file
+  core/drupal.progress:
+    - rotem_linnovate_theme/progress
+description: ''
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.3.1'
+starterkit: true
