@@ -33,13 +33,14 @@
 ### Task 5:
   1. Installed and built a new custom theme using "Starterkit". my theme name is: rotem-linnovate-theme.
   2. Installed "JSON:API" and "Serialization" module.
-  3. Instegrated my custom theme with React. <br/>
+  3. Integrated my custom theme with React. <br/>
      3.1 Used page--front.html.twig in order to show react components only on front pages.
 
 ### Task 6:
   1. Fetched the information (Questions, answers, Order and Topics) from the Json api.
   2. Implemented sort method that uses the order field to align the questions in ascending order.
   3. Implemented the fetched information into relevant containers. Topics are clickable boxes and questions are collapsible list.
-  4. Applied CSS to enhance visual appearence. <br/>
+  4. Implemented a logic that allows only one answer to be open at a time.
+  5. Applied CSS to enhance visual appearence. <br/>
   
     
