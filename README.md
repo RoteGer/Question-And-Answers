@@ -1,4 +1,4 @@
-# Questions and And Answers web page built with Drupal
+# Questions And Answers web page built with Drupal
 
 ![image](https://github.com/user-attachments/assets/78e5cf53-65f2-4dee-aff0-8ccc12f6f882)
 
