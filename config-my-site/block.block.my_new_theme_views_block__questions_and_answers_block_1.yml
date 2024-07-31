@@ -1,0 +1,24 @@
+uuid: 82a498af-ee85-4ac8-bec5-a6db2ae873f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.questions_and_answers
+  module:
+    - views
+  theme:
+    - my_new_theme
+id: my_new_theme_views_block__questions_and_answers_block_1
+theme: my_new_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:questions_and_answers-block_1'
+settings:
+  id: 'views_block:questions_and_answers-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

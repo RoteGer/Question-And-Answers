@@ -1,0 +1,22 @@
+uuid: 0d10610f-624d-4372-8012-59edbdb96551
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_order
+    - node.type.question
+  module:
+    - weight
+id: node.question.field_order
+field_name: field_order
+entity_type: node
+bundle: question
+label: Order
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  range: '20'
+field_type: weight

@@ -1,0 +1,19 @@
+uuid: f619f6cf-b0ca-43b1-a057-8715e09aa77f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_answer_body
+    - node.type.question
+id: node.question.field_answer_body
+field_name: field_answer_body
+entity_type: node
+bundle: question
+label: Answer
+description: "This is the field where you will indicate the Answer.\r\n"
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

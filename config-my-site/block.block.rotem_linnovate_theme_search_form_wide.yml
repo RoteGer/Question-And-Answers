@@ -1,0 +1,23 @@
+uuid: d4fe9e76-afbc-4bec-8f23-476a37bec1da
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - rotem_linnovate_theme
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: rotem_linnovate_theme_search_form_wide
+theme: rotem_linnovate_theme
+region: header
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

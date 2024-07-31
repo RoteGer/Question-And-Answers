@@ -1,0 +1,24 @@
+uuid: e7c5fb76-3d57-43e8-a04b-580fa2021232
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.questions_and_answers
+  module:
+    - views
+  theme:
+    - stark
+id: stark_views_block__questions_and_answers_block_1
+theme: stark
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:questions_and_answers-block_1'
+settings:
+  id: 'views_block:questions_and_answers-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

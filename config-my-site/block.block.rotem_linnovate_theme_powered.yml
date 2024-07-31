@@ -1,0 +1,22 @@
+uuid: 59afd07d-a9e3-405b-a7da-3c621028595b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rotem_linnovate_theme
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: rotem_linnovate_theme_powered
+theme: rotem_linnovate_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

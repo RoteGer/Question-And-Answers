@@ -1,0 +1,23 @@
+uuid: 2edca1f8-cd46-4538-bff2-9417e9b0ed4d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - rotem_linnovate_theme
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: rotem_linnovate_theme_syndicate
+theme: rotem_linnovate_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

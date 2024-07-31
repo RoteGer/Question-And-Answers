@@ -1,0 +1,26 @@
+uuid: c0bdcf33-1c58-4cf0-91b2-188d9e2881a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - filter.format.plain_text
+    - node.type.question
+  module:
+    - text
+id: node.question.body
+field_name: body
+entity_type: node
+bundle: question
+label: Question
+description: 'This is the field where you will state the Question.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats:
+    - plain_text
+field_type: text_with_summary
